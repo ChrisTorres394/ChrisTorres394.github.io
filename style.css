@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(87, 87, 255);
+    padding: 10px;
+    text-align: center;
+    color: green;
+}
+.dtb{
+    width: 50%;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+
+}
