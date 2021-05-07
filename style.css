@@ -3,15 +3,33 @@
 }
 header{
     background-color: rgb(87, 87, 255);
-    padding: 10px;
+    padding: 2px;
+    margin: 0px;
     text-align: center;
     color: green;
 }
-.dtb{
-    width: 50%;
-    margin: 10px;
+
+.eleven{
     margin-left: auto;
     margin-right: auto;
-    display: block
-
+    display:block;
+    padding: 60px;
 }
+.spaceship{
+    margin: 10px;
+}
+.classics{
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+}
+ul {
+    list-style-type: none;
+    border: ;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline;
+    margin: 20px;
+  }
