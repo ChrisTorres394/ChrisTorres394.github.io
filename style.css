@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: rgb(80, 79, 79);
+    background-color: black
 }
 *{
     box-sizing: border-box;
@@ -17,7 +17,7 @@ header{
     margin-left: auto;
     margin-right: auto;
     display:block;
-    padding: 60px;
+    padding: 20px 60px 0px;
 }
 .spaceship{
     margin: 10px;
@@ -33,21 +33,45 @@ ul {
     margin: 0;
     padding: 0;
     background-color: black;
+    text-align: center;
   }
   li {
     display: inline;
     margin: 20px;
     font-size: 23px;
+    color: ;
+    
   }
   a:link{
-      color: yellow;
+      color: rgb(44, 65, 255);
       
   }
   footer {
     text-align: center;
     padding: 3px;
-    background-color: DarkSalmon;
-    color: white;
+    background-color: yellow;
+    color: black;
+  }
+  .movies{
+      background-color: chocolate;
+  }
+  .clear{
+      clear: both;
+  }
+  .myDiv {
+    color: rgb(0, 255, 255);  
+    text-align: left;
+    padding: 4px;
+    width: 650px;
+    margin: 5px;
+  }
+  /* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+    height: 150px; 
+    margin: 10px;
+    /* Should be removed. Only for demonstration */
   }
   
- 
